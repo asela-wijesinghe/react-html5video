@@ -43,10 +43,7 @@ const DefaultPlayer = ({
             <video className={styles.video} {...restProps}>
                 {children}
             </video>
-            <Overlay
-                // onClick={onPlayPauseClick}
-                {...video}
-            />
+            <Overlay {...video} />
             {controls && controls.length && !video.error ? (
                 <div className={styles.controls}>
                     {controls.map((control, i) => {
