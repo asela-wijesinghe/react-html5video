@@ -6,10 +6,10 @@
     left: 0;
     height: 100%;
     width: 100%;
-    color: #fff;
+    color: #ff663c;
     text-align: center;
     cursor: pointer;
-    background-color: rgba(0,0,0,0);
+    background-color: rgba(0, 0, 0, 0);
 }
 
 .inner {
@@ -22,7 +22,7 @@
     height: 60px;
     transform: translateY(-50%);
     margin-left: -30px;
-    background-color: rgba(0,0,0,0.7);
+    background-color: rgba(0, 0, 0, 0.7);
     border-radius: 10px;
 }
 
